@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
+    <title>Home Page</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg  bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./public/services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./public/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./public/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./public/login.html"><button type="button"
+                                class="btn btn-danger">Login</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./public/signup.html"><button type="button"
+                                class="btn btn-danger">Signup</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--------------------- -->
+    <!-- carasoul Slider -->
+    <!--------------------- -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assert/carasoul1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assert/carasoul2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assert/carasoul3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- ---------------- -------->
+    <!-- Our services section -->
+    <!-- -------------------------- -->
+
+    <div class="container-fluid  my-4 pt-4 service-height">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="h5"><a href="./public/services.html" class="cl"> Our Services</a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 ">
+                    <div class="card" style="width: 16rem; height: 200px;">
+                        <img src="./assert/service.webp" class="card-img-top" alt="...">
+                        <div class="card-body bg-light">
+                            <p class="card-text">
+                            <div class="h5 "><a href="./public/services.html" class="cl"> Food and Wins</a></div>
+                            <!-- first star -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: red;"
+                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <!-- second star -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: red;"
+                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <!-- Third star -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: red;"
+                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <!-- Fourth star half -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-half" style="color: red;" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                            </svg>
+                            <!-- fiveth star empty -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star" style="color: red;" viewBox="0 0 16 16">
+                                <path
+                                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                            </svg>
+
+                            </p>
+                            <p class="card-text text-dark">
+                                <a href="./public/services.html" class="cl text-center">1000 + Review</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" style="width: 16rem; height: 200px;">
+                        <img src="./assert/service2.webp" class="card-img-top" alt="...">
+                        <div class="card-body bg-light">
+                            <p class="card-text">
+                            <div class="h5 "><a href="./public/services.html" class="cl"> Resort and Spa</a>
+                            </div>
+                            <!-- first star -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: red;"
+                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <!-- second star -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: red;"
+                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <!-- Third star -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: red;"
+                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <!-- Fourth star half -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-half" style="color: red;" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                            </svg>
+                            <!-- fiveth star empty -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star" style="color: red;" viewBox="0 0 16 16">
+                                <path
+                                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                            </svg>
+                            </p>
+                            <p class="card-text text-dark">
+                                <a href="./public/services.html" class="cl text-center">1200 + Review</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" style="width: 16rem; height: 200px;">
+                        <img src="./assert/service3.webp" class="card-img-top" alt="...">
+                        <div class="card-body bg-light">
+                            <p class="card-text">
+                            <div class="h5 "><a href="./public/services.html" class="cl"> Hotel Rooms</a></div>
+                            <!-- first star -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: red;"
+                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <!-- second star -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: red;"
+                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <!-- Third star -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: red;"
+                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <!-- Fourth star half -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-half" style="color: red;" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                            </svg>
+                            <!-- fiveth star empty -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star" style="color: red;" viewBox="0 0 16 16">
+                                <path
+                                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                            </svg>
+                            </p>
+                            <p class="card-text text-dark">
+                                <a href="./public/services.html" class="cl text-center">2500 + Review</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" style="width: 16rem; height: 200px;">
+                        <img src="./assert/service4.webp" class="card-img-top" alt="...">
+                        <div class="card-body bg-light">
+                            <p class="card-text">
+                            <div class="h5 "><a href="./public/services.html" class="cl"> Yacht Club</a>
+                            </div>
+                            <!-- first star -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: red;"
+                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <!-- second star -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: red;"
+                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <!-- Third star -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: red;"
+                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <!-- Fourth star half -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-half" style="color: red;" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                            </svg>
+                            <!-- fiveth star empty -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star" style="color: red;" viewBox="0 0 16 16">
+                                <path
+                                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                            </svg>
+                            </p>
+                            <p class="card-text text-dark">
+                                <a href="./public/services.html" class="cl text-center">3000 + Review</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------->
+    <!-- our services end -->
+    <!----------------------->
+
+
+    <!----------------------->
+    <!-- Hotel Blogpost  Section-->
+    <!----------------------->
+    <div class="container-fluid bg-warning mb-5 bg blogpostheight">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-12">
+                    <div class="h2 text-center py-3 fw-bolder">
+                        <a href="./public/services.html" class="cl">
+                            Recently
+                            Blog
+                            Posts</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="h4 text-center py-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                        doloremque numquam
+                        asperiores totam minus ab dicta odio ipsam inventore perspiciatis eligendi fugit blanditiis
+                        maiores et placeat quisquam eum, assumenda praesentium.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ">
+                    <div class="card" style="width: 350px; height: 200px;">
+                        <img src="./assert/service.webp" class="card-img-top" alt="...">
+                        <div class="card-body bg-white">
+                            <p class="card-text">
+                            <div class="small ">
+                                <a href="./public/services.html" class="cl"> FEBRUARY 26, 2018</a>
+                            </div>
+                            <div class="h5 py-4">Five Reasons to Stay at Villa Resort</div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card" style="width: 350px; height: 209px!important;">
+                        <img src="./assert/service2.webp" class="card-img-top" alt="...">
+                        <div class="card-body bg-white">
+                            <p class="card-text">
+                            <div class="small "><a href="./public/services.html" class="cl"> FEBRUARY 26, 2018</a></div>
+                            <div class="h5 py-4">Five Reasons to Stay at Villa Resort</div>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card" style="width: 350px; height: 200px;">
+                        <img src="./assert/service3.webp" class="card-img-top" alt="...">
+                        <div class="card-body bg-white">
+                            <p class="card-text">
+                            <div class="small "><a href="./public/services.html" class="cl"> FEBRUARY 26, 2018</a></div>
+                            <div class="h5 py-4">Five Reasons to Stay at Villa Resort</div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------->
+    <!-- Testimonial Section-->
+    <!-------------------------------->
+
+    <div class="container-fluid py-5" style="margin-top: 200px;">
+        <div class="container">
+            <div class="row gx-3">
+                <div class="col-lg-12">
+                    <div class="h1 text-center mb fw-bolder">Testimonial</div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card box">
+                        <img src="./assert/testimonial/testemonial1.webp" class="card-img-top my-lg-3 rounded-circle"
+                            alt="" style="width:100px; height: 100px;margin-left: 6rem;">
+                        <div class="card-body">
+                            <p class="card-text px-2">
+                                <i>"Et quidem, impedit eum fugiat excepturi iste aliquid suscipit, tempore, delectus rem
+                                    soluta voluptatem distinctio sed
+                                    dolores, magni fugit nemo cum expedita. Totam a accusantium sunt aut autem placeat
+                                    officia."</i>
+                            <footer class="blockquote-footer">— Jean Smith</footer>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card box">
+                        <img src="./assert/testimonial/testemonial2.webp" class="card-img-top my-lg-3 rounded-circle"
+                            alt="" style="width:100px; height: 100px;margin-left: 6rem;">
+                        <div class="card-body">
+                            <p class="card-text px-2">
+                                <i>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque
+                                    quo odio repudiandae sunt eveniet?
+                                    Enim facilis laborum voluptate id porro, culpa maiores quis, blanditiis laboriosam
+                                    alias”</i>
+                            <footer class="blockquote-footer">— John Doe</footer>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card box">
+                        <img src="./assert/testimonial/testemonial3.webp" class="card-img-top my-lg-3 rounded-circle"
+                            alt="" style="width:100px; height: 100px;margin-left: 6rem;">
+                        <div class="card-body">
+                            <p class="card-text px-2">
+                                <i>“Nostrum, alias, provident magnam sit blanditiis laboriosam unde quaerat, at ipsam,
+                                    ratione maiores saepe nisi modi
+                                    corporis quas! Beatae quam, quod aspernatur debitis nesciunt quasi porro ea iste
+                                    e similique sunt!”</i>
+                            <footer class="blockquote-footer">— John Doe</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------->
+    <!-- Footer Section-->
+    <!-------------------------------->
+    <div class="container-fluid black mt-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul>
+                        <li class="mt"><a href="#" class="blackcolor">About Us</a></li>
+                        <li class="mt"><a href="#" class="blackcolor">Terms and Conditions</a></li>
+                        <li class="mt"><a href="#" class="blackcolor">Privacy Policy</a></li>
+                        <li class="mt"><a href="#" class="blackcolor">Help</a></li>
+                        <li class="mt"><a href="#" class="blackcolor">Rooms</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <li class="mt"><a href="#" class="blackcolor">Our Location</a></li>
+                        <li class="mt"><a href="#" class="blackcolor">The Hosts</a></li>
+                        <li class="mt"><a href="#" class="blackcolor">About</a></li>
+                        <li class="mt"><a href="#" class="blackcolor">Contact</a></li>
+                        <li class="mt"><a href="#" class="blackcolor">Resturant</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <li class="text-white"><i>Address</i></li>
+                        <li class="blackcolorf small">98 West 21th Street, Suite 721</li>
+                        <li class="blackcolorf small">New York NY 10016</li>
+                        <br>
+                        <li class="text-white"><i>Phone:</i></li>
+                        <li class="blackcolorf small">(+1) 435 3533</li>
+                        <br>
+                        <li class="text-white"><i>Email:</i></li>
+                        <li class="blackcolorf small">info@yourdomain.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="blackcolor">
+                        <li class="blackcolorf small">Sign up for our newsletter</li>
+                        <br>
+                        <li class="blackcolorf small"><input type="email" name="email" id="email"
+                                placeholder="Your email...">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</html>
